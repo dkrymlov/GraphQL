@@ -1,0 +1,14 @@
+http://localhost:8080/graphql?columnIndex=4&value=10.0&operator=<=
+
+{
+    tables {
+        name
+        columns {
+            name,
+            type
+        }
+        rows{
+            values
+        }
+    }
+}
